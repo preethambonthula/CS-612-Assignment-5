@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css"
+            integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+      <style type="text/css">
+         body {
+         background-image: url("https://d13ezvd6yrslxm.cloudfront.net/wp/wp-content/images/DC-Films-logo.jpg");
+         background-size: cover;
+         font-size: 18px;
+		 }
+         .table td, .table th {
+         border-top: 1px ;
+         color: white;
+         }
+         header {
+         height: 100px;
+         }
+         h1 {
+         text-align: center;
+         background-color: light-blue;
+         color: blue;
+         height: 70%;
+         padding-top: 10px;
+         }
+         a {
+            padding: 5px;
+         }
+         a:link {
+         color: yellow;
+         }
+         a:visited {
+         color: yellow;
+         }
+         a:hover {
+         text-decoration: underline;
+         color: navy;
+         <!--font-size: 16px;-->
+         }
+         a:active {
+         color: green;
+         }
+         .nav {
+            padding-left: 20px;
+            border-top: 5px;
+            border-bottom: 5px;
+         }
+
+      </style>
+   </head>
+   <body>
+      <header>
+         <div class="h1">
+         <h1> DCU Movies</h1>
+         </div>
+      </header>
+      <table class="table">
+         <thead>
+            <tr>
+               <th scope="col">FilmName</th>
+               <th scope="col">Superhero</th>
+               <th scope="col">Actor</th>
+               <th scope="col">Director</th>
+               <th scope="col">Year</th>
+            </tr>
+         </thead>
+         <tbody>
+            {% for data in list_data %}
+            <tr>
+               <td scope="row"> {{ data.FilmName }}  </td>
+               <td scope="row"> {{ data.Superhero }} </td>
+               <td scope="row"> {{ data.Actor }} </td>
+               <td scope="row"> {{ data.Director }} </td>
+               <td scope="row"> {{ data.Year }} </td>
+            </tr>
+            {% endfor %}
+         </tbody>
+      </table>
+
+   </body>
+</html>

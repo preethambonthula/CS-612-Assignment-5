@@ -1,0 +1,19 @@
+{"DCUMovies":[
+	{ "FilmName":"Shazam", "Superhero":"Shazam", "Actor":"Zachary levi", "Director":"David F. Sandberg", "Year":"2019" },
+	{ "FilmName":"AquaMan", "Superhero":"AquaMan", "Actor":"Jason Momoa", "Director":"James Wan", "Year":"2018" },
+	{ "FilmName":"Justice League", "Superhero":"League Of Heros", "Actor":"Multiple", "Director":"Zack Synder", "Year":"2017" },
+	{ "FilmName":"Wonder Women", "Superhero":"wonder Women", "Actor":"Gal Gadot", "Director":"Patty Jenkins", "Year":"2017" },
+	{ "FilmName":"The Lego Batman Movie", "Superhero":"BatMan/RobinHood", "Actor":"Multiple", "Director":"Chris McKay", "Year":"2017" },
+	{ "FilmName":"Suicide Squad", "Superhero":" Harley Quinn", "Actor":"Multiple", "Director":"David Ayer", "Year":"2016" },
+	{ "FilmName":"Batman Vs Superman: Dawn of Justice", "Superhero":"Batman/Superman", "Actor":"Ben affleck/Henry Cavill", "Director":"Zack Synder", "Year":"2016" },
+	{ "FilmName":"Man of Steel", "Superhero":"Superman", "Actor":"Henry Civil", "Director":"Zack Synder", "Year":"2013" },
+	{ "FilmName":"The Dark Knight Rises", "Superhero":"Batman/Catwomen", "Actor":"Christian Bale", "Director":"Christopher Nolan", "Year":"2012" },
+	{ "FilmName":"Green Lantern", "Superhero":"Green Lantern", "Actor":"Ryan Reynolds", "Director":"Martin Campbell", "Year":"2011" },
+	{ "FilmName":"The Dark Knight", "Superhero":"Batman/Joker", "Actor":"Christian Bale/Heath Ledger", "Director":"Christopher Nolan", "Year":"2008" },
+	{ "FilmName":"Superman Returns", "Superhero":"Superman", "Actor":"Brandon Routh", "Director":"Bryan Singer", "Year":"2006" },
+	{ "FilmName":"Batman Begins", "Superhero":"Batman", "Actor":"Christian Bale", "Director":"Christopher Nolan", "Year":"2005" },
+	{ "FilmName":"Catwomen", "Superhero":"Catwomen", "Actor":"Halle Berry", "Director":"Pitof", "Year":"2004" },
+	{ "FilmName":"Harley Quinn: Birds of Prey", "Superhero":"Harley Quinn", "Actor":"Margot Robbie", "Director":"Cathy Yan", "Year":"2020" },
+	{ "FilmName":"Joker", "Superhero":"Joker", "Actor":"Joaquin Phoenix", "Director":"Todd Philips", "Year":"2019" },
+	{ "FilmName":"Wonder Women: 1984", "Superhero":"Wonder Women", "Actor":"Gal Gadot", "Director":"Patty Jenkins", "Year":"2020" }	
+]}
